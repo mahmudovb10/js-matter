@@ -38,12 +38,10 @@
 // Boolean5. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlarining har ikkalasi ham yoki toq son yoki juft son".
 // let a = 5;
 // let b = 10;
-// {
-//   if (a % 2 !== 0) {
-//     console.log(true);
-//   } else if (b % 2 == 0) {
-//     console.log(false);
-//   }
+// if ((a % 2 === 0 && b % 2 === 0) || (a % 2 !== 0 && b % 2 !== 0)) {
+//   console.log(true);
+// } else {
+//   console.log(false);
 // }
 
 // Boolean6. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlarning hech bo'lmaganda bittasi musbat".
@@ -78,12 +76,10 @@
 // let a = 5;
 // let b = 5;
 // let c = 6;
-// {
-//   if ((a) => b) {
-//     console.log(true);
-//   } else if ((a, (b) => c)) {
-//     console.log(false);
-//   }
+// if (a === b || a === c || b === c) {
+//   console.log(true);
+// } else {
+//   console.log(false);
 // }
 
 //                      Uyga Vazifa
@@ -112,19 +108,17 @@
 // let a = 3;
 // let b = 5;
 // let c = 10;
-// {
-//   if ((a, b, c)) {
+// if ((a < b && b < c) || (c < b && b < a)) {
 //     console.log(true);
 //   } else {
 //     console.log(false);
 //   }
-// }
 
 // Boolean4. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlari toq sonlar".
 // let a = 3;
 // let b = 5;
 // {
-//   if (a % 02 !== 0 || b % 2 !== 0) {
+//   if (a % 2 !== 0 && b % 2 !== 0) {
 //     console.log(true);
 //   } else {
 //     console.log(false);
@@ -145,22 +139,18 @@
 // Boolean6. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlarning faqat bittasi toq son".
 // let a = 3;
 // let b = 4;
-// {
-//   if (a % 2 !== 0) {
-//     console.log(true);
-//   } else if (b % 2 == 0) {
+// if ((a % 2 !== 0 && b % 2 === 0) || (a % 2 === 0 && b % 2 !== 0)) {
 //     console.log(true);
 //   } else {
 //     console.log(false);
 //   }
-// }
 
 // Boolean7. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlarning har biri musbat".
 // let a = 1;
 // let b = 2;
 // let c = 3;
 // {
-//   if ((a > 0 && b > 0) || c > 0) {
+//   if (a > 0 && b > 0 && c > 0) {
 //     console.log(true);
 //   } else {
 //     console.log(false);
